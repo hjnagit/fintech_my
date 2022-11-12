@@ -2,7 +2,10 @@ package com.itwillbs.fintech.vo;
 
 import java.util.List;
 
+import lombok.Data;
+
 // 2.2.1 사용자정보조회 API 응답 데이터
+@Data
 public class UserInfoResponseVO {
 	private String api_tran_id;
 	private String api_tran_dtm;

@@ -2,6 +2,9 @@ package com.itwillbs.fintech.vo;
 
 import java.util.List;
 
+import lombok.Data;
+
+@Data
 public class AccountSearchResponseVO {
 	private String api_tran_id;
 	private String rsp_code;

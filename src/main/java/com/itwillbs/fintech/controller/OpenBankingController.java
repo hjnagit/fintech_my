@@ -39,7 +39,7 @@ import com.itwillbs.fintech.vo.WithdrawResponseVO;
 public class OpenBankingController {
 	
 	
-	// 객체생성
+	// 객체생성 
 	@Autowired
 	private OpenBankingService openBankingService;
 

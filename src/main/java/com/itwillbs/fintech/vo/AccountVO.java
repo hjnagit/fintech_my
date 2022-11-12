@@ -1,6 +1,9 @@
 package com.itwillbs.fintech.vo;
 
+import lombok.Data;
+
 // 2.2 사용자/계좌 관리에서 사용되는 계좌 정보(배열로 전달된 데이터)
+@Data
 public class AccountVO {
 	private String fintech_use_num;
     private String account_alias;
