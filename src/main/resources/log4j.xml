@@ -10,7 +10,7 @@
 		</layout>
 	</appender>
 	
-	<!-- Application Loggers -->
+	<!-- Application Loggers  -->
 	<logger name="com.itwillbs.fintech">
 		<level value="info" />
 	</logger>
